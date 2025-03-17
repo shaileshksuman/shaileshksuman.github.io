@@ -1,0 +1,173 @@
+html {
+  font-size: 14px;
+}
+
+.footer {
+  width: calc(100vw - 29rem);
+}
+
+@media screen and (max-width: 1500px) {
+  .header {
+    padding: 3rem;
+  }
+
+  .content--child__right {
+    height: calc(100vh - 6.15rem);
+  }
+
+  .footer {
+    width: calc(100vw - 32rem);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 990px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .header {
+    max-width: 100%;
+    min-height: auto;
+  }
+
+  .header--icon {
+    font-size: 2.5rem;
+  }
+
+  .content {
+    height: auto;
+  }
+
+  .content-container {
+    display: block;
+    width: auto;
+  }
+
+  .content--child__right {
+    margin-left: 0;
+    margin-top: 1.5rem;
+    height: auto;
+    min-height: auto;
+  }
+
+  .footer {
+    width: auto;
+  }
+
+  .link-container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+}
+
+@media screen and (max-width: 572px) {
+  .header--icon {
+    display: none;
+  }
+
+  .header {
+    padding: 1rem;
+    margin-bottom: -1rem;
+  }
+
+  .content-title {
+    font-size: 1rem;
+  }
+
+  .content-sub-title {
+    font-size: 0.875rem;
+  }
+
+  .content {
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  ol {
+    padding-inline-start: 1rem;
+  }
+
+  .address {
+  }
+
+  /* .address__line {
+    width: 7.5rem;
+  } */
+
+  /* .email-text {
+    width: 18rem;
+  } */
+
+  .subscription-form {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .input-flex-container {
+    display: block;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+
+  .input-container label {
+    flex: 0.3;
+    width: auto;
+  }
+
+  .input-container input {
+    flex: 0.7;
+    width: auto;
+  }
+
+  .email-label {
+    display: none;
+  }
+
+  .subscribe-btn {
+    width: 2.5rem;
+    /* height: 2.5rem; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--five);
+    box-shadow: 3px 3px 4px 1px rgb(0 0 0 / 40%);
+  }
+
+  .subscribe-text {
+    display: none;
+  }
+
+  .bell-icon {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .content--child {
+    box-shadow: none;
+    padding: 0.5rem;
+  }
+
+  /* .address__line {
+    width: 7.5rem;
+  } */
+
+  /* .email-text {
+    width: 18rem;
+  } */
+
+  .separator {
+    display: block;
+    margin: 0 0 1.5rem 0;
+    background-color: var(--five);
+    border: 0.5px solid var(--five);
+  }
+}

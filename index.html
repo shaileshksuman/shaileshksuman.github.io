@@ -1,0 +1,144 @@
+<!-- 
+  Hi There! 👋
+
+  Seems like you are interested in the source code.
+  Feel free to copy and make one for yourself.
+
+  I hope you find it helpful. If you have any suggestions please drop me a mail or just reach out on social platforms.
+
+  Get in touch if want to collaborate on web based projects or just need some help.
+
+  How to reach me?
+  Linkedin - https://www.linkedin.com/in/rajeshtezu/
+  GitHub - https://github.com/rajeshtezu
+  Twitter - https://twitter.com/rajeshtezu/
+  Email - rajeshtezu90@gmail.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shailesh Kumar Suman | developer"
+    />
+    <title>Shailesh Kumar Suman</title>
+    <link rel="icon" type="image/x-icon" href="/assets/avatar.jpg" />
+
+    <link rel="stylesheet" href="home-page.css" />
+    <link
+      href="home-page-responsive.css"
+      rel="stylesheet"
+      media="screen and (max-width: 1500px)"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="main">
+      <header class="header">
+        <div id="header-middle" class="header__middle">
+          <div class="avatar-container">
+            <img src="/assets/avatar.jpg" alt="Avatar" class="avatar" />
+          </div>
+
+          <h1 class="name">Shailesh Kumar Suman</h1>
+
+          <section class="content--child">
+            <address id="address" class="address"></address>
+
+            <div class="about-me">
+              <p class="hi-there"><span class="emoji">👋</span> Hi There!</p>
+              <p id="about-me"></p>
+            </div>
+          </section>
+
+          <!-- Subscription - start -->
+          <form id="subscription-form" class="subscription-form">
+            <div class="input-container">
+              <!-- <label
+                for="email"
+                aria-placeholder="abc@xyz.com"
+                aria-required="true"
+                class="email-label"
+              >
+                Email*
+              </label> -->
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="abc@xyz.com"
+                required
+              />
+            </div>
+
+            <button type="submit" class="subscribe-btn">
+              <span class="subscribe-text">Get Notified</span>
+              <i class="fas fa-bell bell-icon"></i>
+            </button>
+          </form>
+          <dialog id="success" class="dialog">
+            <p style="font-size: 1.25rem">Subscribed successfully.</p>
+          </dialog>
+
+          <dialog id="already-subscribed" class="dialog">
+            <p style="font-size: 1.25rem">You have already subscribed.</p>
+          </dialog>
+          <!-- Subscription - end -->
+        </div>
+      </header>
+
+      <section class="" style="flex: 0.7">
+        <section class="content--child content--child__right">
+          <h1 class="content-title">
+            Would like to learn something? Hit the links below.
+          </h1>
+          <h2 class="content-sub-title">Computer and Web Technologies</h2>
+          <ol id="tech-ed-links" class="link-container"></ol>
+
+          <h2 class="content-sub-title">Others</h2>
+          <ol id="other-ed-links" class="link-container"></ol>
+
+          <h2 class="content-sub-title">Fun Projects</h2>
+          <ol id="project-links" class="link-container"></ol>
+        </section>
+
+        <footer class="footer">
+          <p>
+            Designed and developed by
+            <span class="footer--name">
+              <a
+                href="https://github.com/rajeshtezu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Rajesh Kumar
+              </a>
+            </span>
+          </p>
+          <p>Built with vanilla JS, CSS3 and HTML5</p>
+          <p>
+            It's reusable template. Feel free to copy
+            <span class="emoji">🖖</span>
+          </p>
+        </footer>
+      </section>
+    </main>
+
+    <script type="module" src="home-page.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/276296e4e9.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </body>
+</html>
